@@ -1,0 +1,65 @@
+body {
+    background: #282e3a;
+    color: #eee;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+
+
+
+
+.units {
+    text-align: center;
+    color: #eee;
+    font-size: 83px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+#days {
+    border: 2px solid #BF0C2B;
+    background: #BF0C2B;
+    color: #eee;
+
+}
+
+#hours {
+    border: 2px solid #265B40;
+    background: #265B40;
+    color: #eee;
+}
+
+#minutes {
+    border: 2px solid #204171;
+    background: #204171;
+    color: #eee;
+
+}
+
+#seconds {
+    border: 2px solid #E47127;
+    background: #E47127;
+    color: #eee;
+}
+
+#seconds.turn {
+    animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotateX(0deg)
+    }
+
+    100% {
+        transform: rotateX(360deg)
+    }
+
+}
